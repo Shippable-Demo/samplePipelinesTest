@@ -46,5 +46,10 @@ resources:
 #      sourceName : "demo-shippable-ecs-test"    
       sourceName : "test-cluster"
       region: "us-east-1"
+      
+  - name: dv-ver
+    type: version
+    seed:
+      versionName: "1.0.0"
 
 #######1: EOF Create DV pipeline
