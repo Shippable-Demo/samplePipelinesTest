@@ -52,4 +52,13 @@ resources:
     seed:
       versionName: "1.0.0"
 
+  - name: env-prod-ecs
+    type: cluster
+#    integration: demo-manishas-ecs
+    integration: myAmazonECSIntegration
+    pointer:
+      sourceName: "test-cluster
+#      sourceName : "demo-shippable-ecs-prod"
+      region: "us-east-1"
+
 #######1: EOF Create DV pipeline
