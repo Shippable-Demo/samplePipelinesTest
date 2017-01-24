@@ -22,11 +22,11 @@ resources:
   - name: dv-img-opts
     type: dockerOptions
     version:
-      memory: 128
-      cpuShares: 256
-      portMappings:
-        - 80:80
-      publishAllPorts : true
+#      memory: 128
+#      cpuShares: 256
+#      portMappings:
+#        - 80:80
+#      publishAllPorts : true
 
 # env vars for VISUALIZER
 #  - name: dv-params
