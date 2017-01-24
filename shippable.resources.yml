@@ -23,12 +23,12 @@ resources:
     type: dockerOptions
     version:
       labels:
-        - key1: value1
-#      memory: 128
-#      cpuShares: 256
-#      portMappings:
-#        - 80:80
-#      publishAllPorts : true
+##        - key1: value1
+      memory: 128
+      cpuShares: 256
+      portMappings:
+        - 80:80
+      publishAllPorts : true
 
 # env vars for VISUALIZER
 #  - name: dv-params
