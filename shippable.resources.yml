@@ -57,7 +57,7 @@ resources:
 #    integration: demo-manishas-ecs
     integration: myAmazonECSIntegration
     pointer:
-      sourceName: "test-cluster
+      sourceName: "test-cluster"
 #      sourceName : "demo-shippable-ecs-prod"
       region: "us-east-1"
 
