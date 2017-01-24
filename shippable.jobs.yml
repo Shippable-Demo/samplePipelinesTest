@@ -24,6 +24,15 @@ jobs:
         deployMethod: upgrade   
 # / TEST deployment for VISUALIZER to Amazon ECS
 
+  - name: dv-prod-ecs
+    type: deploy
+    steps:
+      - IN: dv-rel
+        switch: off
+      - IN: env-prod-ecs
+      - TASK: managed
+        deployMethod: upgrade
+
   - name: dv-rel
     type: release
     steps:
